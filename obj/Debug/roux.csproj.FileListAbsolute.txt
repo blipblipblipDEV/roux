@@ -1,0 +1,10 @@
+C:\Users\kelle\source\repos\roux\roux\bin\Debug\roux.exe.config
+C:\Users\kelle\source\repos\roux\roux\bin\Debug\roux.exe
+C:\Users\kelle\source\repos\roux\roux\bin\Debug\roux.pdb
+C:\Users\kelle\source\repos\roux\roux\obj\Debug\roux.csprojAssemblyReference.cache
+C:\Users\kelle\source\repos\roux\roux\obj\Debug\roux.Form1.resources
+C:\Users\kelle\source\repos\roux\roux\obj\Debug\roux.Properties.Resources.resources
+C:\Users\kelle\source\repos\roux\roux\obj\Debug\roux.csproj.GenerateResource.cache
+C:\Users\kelle\source\repos\roux\roux\obj\Debug\roux.csproj.CoreCompileInputs.cache
+C:\Users\kelle\source\repos\roux\roux\obj\Debug\roux.exe
+C:\Users\kelle\source\repos\roux\roux\obj\Debug\roux.pdb
