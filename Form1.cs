@@ -27,15 +27,36 @@ namespace roux
             System.Threading.Thread.Sleep(3000);
             txtConsole.AppendText(string.Format("Cleaning up injection traces...") + Environment.NewLine);
             System.Threading.Thread.Sleep(1600);
-            txtConsole.AppendText(string.Format("Generating Roux...") + Environment.NewLine);
+            txtConsole.AppendText(string.Format("Generating {0} Roux...", numRoux.Value) + Environment.NewLine);
             System.Threading.Thread.Sleep(3700);
-            txtConsole.AppendText(string.Format("Adding Roux...") + Environment.NewLine);
+            txtConsole.AppendText(string.Format("Adding {0} Roux for {1}...", numRoux.Value, txtUsername.Text) + Environment.NewLine);
             System.Threading.Thread.Sleep(3000);
             txtConsole.AppendText(string.Format("Cleaning up audit logs...") + Environment.NewLine);
             System.Threading.Thread.Sleep(500);
             txtConsole.AppendText(string.Format("Finalizing...") + Environment.NewLine);
             System.Threading.Thread.Sleep(2000);
-            txtConsole.AppendText(string.Format("Successfully added Roux! Enjoy!") + Environment.NewLine);
+            txtConsole.AppendText(string.Format("Successfully added {0} Roux! Enjoy!", numRoux.Value) + Environment.NewLine);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            txtConsole.AppendText(string.Format("DONT CLICK THIS LABEL!") + Environment.NewLine);
+         
+        }
+
+        private void txtConsole_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
